@@ -6,6 +6,7 @@ Or just to test something when controllers are too simple to really have to test
 
 You can only test where clauses for now, but will add things like order and joins at some point. Probably.
 
+[![Gem Version](https://badge.fury.io/rb/rspec-arel-matchers.svg)](http://badge.fury.io/rb/rspec-arel-matchers)
 
 ## Examples
 
