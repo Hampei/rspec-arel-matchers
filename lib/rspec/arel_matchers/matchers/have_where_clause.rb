@@ -6,6 +6,7 @@ module RSpec
 
         def initialize(cls, left, operator, right)
           @cls = cls
+          # left operant is converted by active_record to a string in some cases, but not all
           @left = indifferent_string left
           @operator = operator
           @right = right
